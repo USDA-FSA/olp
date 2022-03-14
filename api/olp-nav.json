@@ -1,0 +1,99 @@
+{
+  "main": [
+    {
+      "uid": "home-id",
+      "label": "Home",
+      "path": "/",
+      "hasChild": "false",
+      "columnClass": ""
+    },
+    {
+      "uid": "payments-id",
+      "label": "Payments",
+      "path": "/payments",
+      "hasChild": "true",
+      "multiColumn": "false",
+      "columnClass": "fsa-nav-global__link--has-sub-menu",
+      "hasHeaders": "false",
+      "children": [
+        {
+          "uid": "payments-details-one-id",
+          "label": "Payments Details Demo 1",
+          "path": "/payments/details-1",
+          "hasChild": "false"
+        },
+        {
+          "uid": "payments-details-two-id",
+          "label": "Payments Details Demo 2",
+          "path": "/payments/details-2",
+          "hasChild": "false"
+        }
+      ]
+    },
+    {
+      "uid": "reports-id",
+      "label": "Reports",
+      "path": "/reports",
+      "hasChild": "true",
+      "multiColumn": "false",
+      "columnClass": "fsa-nav-global__link--has-sub-menu",
+      "hasHeaders": "false",
+      "children": [
+        {
+          "uid": "reports-report-one-id",
+          "label": "Report One",
+          "path": "/reports/report-one",
+          "hasChild": "false"
+        },
+        {
+          "uid": "reports-report-two-id",
+          "label": "Report Two",
+          "path": "/reports/report-two",
+          "hasChild": "false"
+        },
+        {
+          "uid": "reports-report-three-id",
+          "label": "Report Three",
+          "path": "/reports/report-three",
+          "hasChild": "false"
+        }
+      ]
+    },
+    {
+      "uid": "financial-systems-id",
+      "label": "Financial Systems",
+      "path": "/financial-systems",
+      "hasChild": "true",
+      "multiColumn": "false",
+      "columnClass": "fsa-nav-global__link--has-sub-menu",
+      "hasHeaders": "false",
+      "children": [
+        {
+          "uid": "financial-systems-app-one-id",
+          "label": "Application One",
+          "path": "/financial-systems/application-one",
+          "hasChild": "false"
+        },
+        {
+          "uid": "financial-systems-app-two-id",
+          "label": "Application Two",
+          "path": "/financial-systems/application-two",
+          "hasChild": "false"
+        }
+      ]
+    }
+  ],
+  "side": [
+    {
+      "uid": "help-id",
+      "label": "Help",
+      "path": "/help",
+      "hasChild": "false",
+      "columnClass": "",
+      "icon": {
+        "class": "fsa-icon fsa-icon--size-1",
+        "path": "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H8c0-2.21 1.79-4 4-4s4 1.79 4 4c0 .88-.36 1.68-.93 2.25z"
+      }
+    }
+  ]
+}
